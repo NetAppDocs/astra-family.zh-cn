@@ -5,6 +5,7 @@ summary: Astra 是 Kubernetes 应用程序数据生命周期管理服务，可�
 ---
 = Astra 系列简介
 :hardbreaks:
+:allow-uri-read: 
 :icons: font
 :imagesdir: ./media/
 
