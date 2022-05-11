@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <blocks>
   <block id="42b90d40b51b0ccfc8a50cfa2f6c88bc" category="summary">Astra 是 Kubernetes 应用程序数据生命周期管理服务，可简化有状态应用程序的操作。轻松保护，备份和迁移 Kubernetes 工作负载，并即时创建有效的应用程序克隆。</block>
-  <block id="1132699b3be3edf1b70f14c2203f23a1" category="doc">Astra 系列简介</block>
   <block id="4a37c56b2766c00f553f023f2e4987e3" category="paragraph">NetApp Astra 产品系列可为 Cloud 原生 应用程序提供应用程序数据管理和存储。 </block>
   <block id="b71fa69e65a9178741af35068df8a392" category="paragraph">Astra 产品包括：</block>
   <block id="9cdf0ccc35fe6d9fdc72efbcca1bacad" category="list-text">* Astra Control* ：使用应用程序感知型数据管理工具来管理，保护和移动公有云和内部环境中的 Kubernetes 工作负载。​</block>
@@ -107,4 +106,8 @@
   <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">开放源代码</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知文件提供有关 NetApp 软件中使用的第三方版权和许可证的信息。</block>
+  <block id="f4e3fd93268ea6ed82aa5edf5e2e0cb1" category="doc">了解Astra产品系列</block>
+  <block id="bb453665f57f6823950856f7a9bad0c3" category="inline-image-macro">Astra 产品系列</block>
+  <block id="0ee3fa33cec12a8c87c052e3967c638a" category="paragraph">下图显示了Astra产品组合。<block ref="17d3506812ac5cd550afaae120fc3072" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="16e3341389486c882cdc91177ff32570" category="section-title">Astra系列生态系统</block>
 </blocks>
