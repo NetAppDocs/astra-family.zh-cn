@@ -20,7 +20,6 @@ Astra 产品包括：
 ** * Astra 控制中心 * ：使用自管理软件对内部 Kubernetes 工作负载进行数据管理。
 
 
-* * Astra Data Store* ：对容器和 VM 工作负载使用 Kubernetes 本机共享文件服务进行企业数据管理。
 * * Astra Trident * ：与 NetApp 存储提供商合作，为 Kubernetes 工作负载配置和管理符合容器存储接口（ CSI ）要求的存储。
 
 
@@ -30,18 +29,7 @@ Astra 产品包括：
 
 
 | 管理 | Astra 控制服务 Astra 控制中心 Astra Trident 
-
-
-| 存储 | Astra 数据存储 
 |===
-下图显示了Astra产品组合。image:astra-product-family.png["Astra 产品系列"]
-
-
-
-== Astra系列生态系统
-
-下图显示了 Astra 系列生态系统。image:astra-ads-architecture-diagram-v3.png["Astra 架构图和组件"]
-
 
 
 == Astra Control
@@ -107,26 +95,9 @@ https://docs.netapp.com/us-en/astra-control-center/["Astra 控制中心文档"^]
 
 
 | 什么是存储后端支持？ | NetApp 云服务产品  a| 
-* Astra Data Store 存储后端
-* NetApp ONTAP AFF 和 FAS 系统
-
+NetApp ONTAP AFF 和 FAS 系统
 
 |===
-
-
-== Astra 数据存储
-
-Astra 数据存储是一个分布式并行文件系统，可为具有企业数据管理功能的 Kubernetes 集群提供可扩展的共享文件和块数据服务原生 。
-
-Astra 数据存储库包括以下主要功能：
-
-* 以软件形式打包和交付
-* 在第三方商用硬件上运行
-* 为传统应用程序和云原生应用程序提供一个通用数据平台
-
-
-https://docs.netapp.com/us-en/astra-data-store/["Astra Data Store 文档"^]
-
 
 
 == Astra Trident
@@ -141,7 +112,6 @@ https://docs.netapp.com/us-en/trident/index.html["Astra Trident 文档"^]
 
 * https://docs.netapp.com/us-en/astra/index.html["Astra Control Service 文档"^]
 * https://docs.netapp.com/us-en/astra-control-center/["Astra 控制中心文档"^]
-* https://docs.netapp.com/us-en/astra-data-store/["Astra Data Store 文档"^]
 * https://docs.netapp.com/us-en/trident/index.html["Astra Trident 文档"^]
 * https://docs.netapp.com/us-en/astra-automation/index.html["Astra Control API"^]
 * https://docs.netapp.com/us-en/cloudinsights/["Cloud Insights 文档"^]
