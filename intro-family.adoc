@@ -45,15 +45,13 @@ Astra Control 为 Kubernetes 应用程序数据生命周期管理提供了关键
 * 使用用户界面或 API 实施备份和迁移工作流
 
 
-Astra Control 会持续监控您的计算状态变化，因此它可以识别您在此过程中添加的任何新应用程序。
-
 
 
 === 部署模式
 
 Astra Control 有两种部署模式：
 
-* * Astra Control Service* ： NetApp 管理的一项服务，可在 Google Kubernetes Engine （ GKEE ）和 Azure Kubernetes Service （ AKS ）中为 Kubernetes 集群提供应用程序感知型数据管理。
+* * Astra Control Service*：NetApp管理的一项服务、可为Amazon Web Services (AWS)、Azure Kubernetes Service (AKS)和Google Kubernetes Engine (GKS)中的Kubernetes集群提供应用程序感知型数据管理。
 +
 https://docs.netapp.com/us-en/astra/index.html["Astra Control Service 文档"^]
 
@@ -63,32 +61,53 @@ https://docs.netapp.com/us-en/astra-control-center/["Astra 控制中心文档"^]
 
 
 
-[cols="1h,2d,2a"]
+[cols="1h,2a,2a"]
 |===
 |  | Astra 控制服务 | Astra 控制中心 
 
 
-| 如何提供？ | 作为 NetApp 提供的一项完全托管的云服务  a| 
+| 如何提供？  a| 
+作为 NetApp 提供的一项完全托管的云服务
+ a| 
 作为您下载，安装和管理的软件
 
 
 
-| 它托管在何处？ | 基于 NetApp 选择的公有云  a| 
+| 它托管在何处？  a| 
+基于 NetApp 选择的公有云
+ a| 
 在您提供的 Kubernetes 集群上
 
 
 
-| 如何更新？ | 由 NetApp 管理  a| 
+| 如何更新？  a| 
+由 NetApp 管理
+ a| 
 您可以管理任何更新
 
 
 
-| 应用程序数据管理功能是什么？ | 两个平台上的功能相同，但后端存储或外部服务除外  a| 
-两个平台上的功能相同，但后端存储或外部服务除外
+| 什么是存储后端支持？  a| 
+* Amazon Web Services：
++
+** Amazon EBS
+** 适用于 NetApp ONTAP 的 Amazon FSX
+
+
+* Google Cloud
++
+** Google 持久磁盘
+** NetApp Cloud Volumes Service
+
+
+* Microsoft Azure
++
+** Azure受管磁盘
+** Azure NetApp Files
 
 
 
-| 什么是存储后端支持？ | NetApp 云服务产品  a| 
+ a| 
 * NetApp ONTAP AFF 和 FAS 系统
 * Cloud Volumes ONTAP 存储后端
 
