@@ -41,6 +41,7 @@ Astra Control 为 Kubernetes 应用程序数据生命周期管理提供了关键
 * 自动执行策略驱动的快照和备份操作
 * 将应用程序和数据从一个 Kubernetes 集群迁移到另一个集群
 * 将应用程序从暂存克隆到生产环境
+* 使用NetApp SnapMirror技术将应用程序复制到远程系统
 * 直观显示应用程序运行状况和保护状态
 * 使用用户界面或 API 实施备份和迁移工作流
 
@@ -55,7 +56,7 @@ Astra Control 有两种部署模式：
 +
 https://docs.netapp.com/us-en/astra/index.html["Astra Control Service 文档"^]
 
-* * Astra Control Center* ：自管理软件，可为内部环境中运行的 Kubernetes 集群提供应用程序感知型数据管理。
+* * Astra Control Center* ：自管理软件，可为内部环境中运行的 Kubernetes 集群提供应用程序感知型数据管理。此外、还可以在Amazon Web Services、Microsoft Azure和Google云平台(GCP)上安装Astra控制中心和NetApp Cloud Volumes ONTAP 存储后端。
 +
 https://docs.netapp.com/us-en/astra-control-center/["Astra 控制中心文档"^]
 
@@ -69,14 +70,14 @@ https://docs.netapp.com/us-en/astra-control-center/["Astra 控制中心文档"^]
 | 如何提供？  a| 
 作为 NetApp 提供的一项完全托管的云服务
  a| 
-作为您下载，安装和管理的软件
+下载、安装和管理的软件
 
 
 
 | 它托管在何处？  a| 
 基于 NetApp 选择的公有云
  a| 
-在您提供的 Kubernetes 集群上
+自带Kubernetes集群
 
 
 

@@ -21,7 +21,6 @@
   <block id="db1905d057dd6fde6f8b7bd6afe60e41" category="paragraph">Astra Control 有两种部署模式：</block>
   <block id="ef22ff17624b3faeed227ce5c717eb5f" category="inline-link">Astra Control Service 文档</block>
   <block id="6762180adf48075df77efbf264e982ec" category="paragraph"><block ref="6762180adf48075df77efbf264e982ec" category="inline-link-rx"></block></block>
-  <block id="ddbf9f0ee6e908772df862b9cb9312d3" category="list-text">* Astra Control Center* ：自管理软件，可为内部环境中运行的 Kubernetes 集群提供应用程序感知型数据管理。</block>
   <block id="3a4b2c66d4bdac6ce0e3340c71a39eda" category="inline-link">Astra 控制中心文档</block>
   <block id="281db70ca8dfcac9ebe6166029058548" category="paragraph"><block ref="281db70ca8dfcac9ebe6166029058548" category="inline-link-rx"></block></block>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="cell"></block>
@@ -29,10 +28,8 @@
   <block id="9c634046a90a62883b122e76b9afcef2" category="cell">Astra 控制中心</block>
   <block id="72fa0b165b80dd423c3cca71e56e6e85" category="cell">如何提供？</block>
   <block id="f7b1d494056b7a9289f329a721d9f318" category="cell">作为 NetApp 提供的一项完全托管的云服务</block>
-  <block id="aff53210beade5ba79414ae13eb6b73d" category="paragraph">作为您下载，安装和管理的软件</block>
   <block id="7cae1429bdc4131db46365e8fc893a77" category="cell">它托管在何处？</block>
   <block id="7ab48d8d90e46b91aa73c1832b7681f9" category="cell">基于 NetApp 选择的公有云</block>
-  <block id="6cc0042ffe94d2cdea2bf7b80705f4ef" category="paragraph">在您提供的 Kubernetes 集群上</block>
   <block id="a564f860d9dd9df279c4ea80b08d026a" category="cell">如何更新？</block>
   <block id="b2929741e98ca2c366d8d7dfda36e2b9" category="cell">由 NetApp 管理</block>
   <block id="091f846d60c1037c90ba7580f37ef9fa" category="paragraph">您可以管理任何更新</block>
@@ -94,4 +91,8 @@
   <block id="4bce0cadbd95655804d72e0df4ac6d7b" category="list-text">Microsoft Azure</block>
   <block id="79c9c43a409053927cc323915dbf1c06" category="list-text">Azure受管磁盘</block>
   <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="list-text">Azure NetApp Files</block>
+  <block id="5ec023826f488423d711ac0df1d9f4c5" category="list-text">使用NetApp SnapMirror技术将应用程序复制到远程系统</block>
+  <block id="a3b55d525a2386049955089c958fb85f" category="list-text">* Astra Control Center* ：自管理软件，可为内部环境中运行的 Kubernetes 集群提供应用程序感知型数据管理。此外、还可以在Amazon Web Services、Microsoft Azure和Google云平台(GCP)上安装Astra控制中心和NetApp Cloud Volumes ONTAP 存储后端。</block>
+  <block id="3f30cc087061fe529429ba0e8d0ff810" category="paragraph">下载、安装和管理的软件</block>
+  <block id="dccc75a2a0dee41efca95ab5f6a92a91" category="paragraph">自带Kubernetes集群</block>
 </blocks>
