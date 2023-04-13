@@ -14,7 +14,6 @@
   <block id="0a5245490d6d6f511bbdb3db35acfe54" category="list-text">创建应用程序感知型按需快照和备份</block>
   <block id="f107a6e34d3d0df36d460bc5b3a5fe8b" category="list-text">自动执行策略驱动的快照和备份操作</block>
   <block id="ae3099cc177fc161f80c6965fe89a71a" category="list-text">将应用程序和数据从一个 Kubernetes 集群迁移到另一个集群</block>
-  <block id="f22cb7c9b8713326a930c00edca70cee" category="list-text">将应用程序从暂存克隆到生产环境</block>
   <block id="1c26e7db082840fcbfcd87527c92e1aa" category="list-text">直观显示应用程序运行状况和保护状态</block>
   <block id="6762973af9b127d271f0d2b2aea0bc96" category="section-title">部署模式</block>
   <block id="db1905d057dd6fde6f8b7bd6afe60e41" category="paragraph">Astra Control 有两种部署模式：</block>
@@ -88,13 +87,14 @@
   <block id="4bce0cadbd95655804d72e0df4ac6d7b" category="list-text">Microsoft Azure</block>
   <block id="79c9c43a409053927cc323915dbf1c06" category="list-text">Azure受管磁盘</block>
   <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="list-text">Azure NetApp Files</block>
-  <block id="5ec023826f488423d711ac0df1d9f4c5" category="list-text">使用NetApp SnapMirror技术将应用程序复制到远程系统</block>
-  <block id="a3b55d525a2386049955089c958fb85f" category="list-text">* Astra Control Center* ：自管理软件，可为内部环境中运行的 Kubernetes 集群提供应用程序感知型数据管理。此外、还可以在Amazon Web Services、Microsoft Azure和Google云平台(GCP)上安装Astra控制中心和NetApp Cloud Volumes ONTAP 存储后端。</block>
-  <block id="3f30cc087061fe529429ba0e8d0ff810" category="paragraph">下载、安装和管理的软件</block>
-  <block id="dccc75a2a0dee41efca95ab5f6a92a91" category="paragraph">自带Kubernetes集群</block>
   <block id="6c4ff7542dcef16bc12bbbab0c160e9a" category="list-text">使用Web UI或API实施备份和迁移工作流</block>
   <block id="b7372905cd310308af0541e07ef5175f" category="list-text">* Astra Control Service*：NetApp管理的服务、可为多个云提供商环境中的Kubernetes集群以及自管理Kubernetes集群提供应用程序感知型数据管理。</block>
   <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="inline-link-macro">Cloud Volumes ONTAP</block>
   <block id="3be7ceee76706d9dfc15d8f9c233dfb8" category="list-text"><block ref="3be7ceee76706d9dfc15d8f9c233dfb8" category="inline-link-macro-rx"></block></block>
-  <block id="d9e6278e0d2ca01f55d0a29da9caa34f" category="list-text">自我管理的集群</block>
+  <block id="f7173fff9a92f2bab2648f86282ab07c" category="list-text">使用NetApp SnapMirror技术(Astra Control Center)将应用程序复制到远程系统</block>
+  <block id="631928ccc601c8e49976a8d73af28304" category="list-text">将应用程序从暂存克隆到生产</block>
+  <block id="db7cdbe16748f17a4795bd3e96b798a0" category="list-text">* Astra Control Center* ：自管理软件，可为内部环境中运行的 Kubernetes 集群提供应用程序感知型数据管理。Astra控制中心还可以安装在多个云提供商环境中、并具有一个NetApp Cloud Volumes ONTAP 存储后端。</block>
+  <block id="aff53210beade5ba79414ae13eb6b73d" category="paragraph">作为您下载，安装和管理的软件</block>
+  <block id="384c577b472799aa8cd781ce64f2bb34" category="paragraph">在您自己的Kubernetes集群上</block>
+  <block id="55b6146ebe43b01a290a7aad48a66943" category="list-text">自管理集群：</block>
 </blocks>
