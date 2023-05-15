@@ -54,11 +54,11 @@ Astra Control 有两种部署模式：
 
 * * Astra Control Service*：NetApp管理的服务、可为多个云提供商环境中的Kubernetes集群以及自管理Kubernetes集群提供应用程序感知型数据管理。
 +
-https://docs.netapp.com/us-en/astra/index.html["Astra Control Service 文档"^]
+https://["Astra Control Service 文档"^]
 
 * * Astra Control Center* ：自管理软件，可为内部环境中运行的 Kubernetes 集群提供应用程序感知型数据管理。Astra控制中心还可以安装在多个云提供商环境中、并具有一个NetApp Cloud Volumes ONTAP 存储后端。
 +
-https://docs.netapp.com/us-en/astra-control-center/["Astra 控制中心文档"^]
+https://["Astra 控制中心文档"^]
 
 
 
@@ -93,7 +93,7 @@ https://docs.netapp.com/us-en/astra-control-center/["Astra 控制中心文档"^]
 +
 ** Amazon EBS
 ** 适用于 NetApp ONTAP 的 Amazon FSX
-** link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-gcp.html["Cloud Volumes ONTAP"^]
+** link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-aws.html["Cloud Volumes ONTAP"^]
 
 
 * Google Cloud
@@ -107,7 +107,7 @@ https://docs.netapp.com/us-en/astra-control-center/["Astra 控制中心文档"^]
 +
 ** Azure受管磁盘
 ** Azure NetApp Files
-** link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-gcp.html["Cloud Volumes ONTAP"^]
+** link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-azure.html["Cloud Volumes ONTAP"^]
 
 
 * 自管理集群：
@@ -115,13 +115,13 @@ https://docs.netapp.com/us-en/astra-control-center/["Astra 控制中心文档"^]
 ** Amazon EBS
 ** Google 持久磁盘
 ** Azure受管磁盘
-** link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-gcp.html["Cloud Volumes ONTAP"^]
+** link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-overview-cvo.html["Cloud Volumes ONTAP"^]
 
 
 
  a| 
 * NetApp ONTAP AFF 和 FAS 系统
-* link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-gcp.html["Cloud Volumes ONTAP"^]
+* link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-overview-cvo.html["Cloud Volumes ONTAP"^]
 
 
 |===
@@ -131,16 +131,16 @@ https://docs.netapp.com/us-en/astra-control-center/["Astra 控制中心文档"^]
 
 Astra Trident 是 NetApp 对 Kubernetes 容器存储接口（ CSI ） driver​ 的开源实施。Astra Trident 为 Kubernetes applications​ 提供业务流程和数据连接。
 
-https://docs.netapp.com/us-en/trident/index.html["Astra Trident 文档"^]
+https://["Astra Trident 文档"^]
 
 
 
 == 有关详细信息 ...
 
-* https://docs.netapp.com/us-en/astra/index.html["Astra Control Service 文档"^]
-* https://docs.netapp.com/us-en/astra-control-center/["Astra 控制中心文档"^]
-* https://docs.netapp.com/us-en/trident/index.html["Astra Trident 文档"^]
-* https://docs.netapp.com/us-en/astra-automation/index.html["Astra Control API"^]
-* https://docs.netapp.com/us-en/cloudinsights/["Cloud Insights 文档"^]
-* https://docs.netapp.com/us-en/ontap/index.html["ONTAP 文档"^]
+* https://["Astra Control Service 文档"^]
+* https://["Astra 控制中心文档"^]
+* https://["Astra Trident 文档"^]
+* https://["Astra Control API"^]
+* https://["Cloud Insights 文档"^]
+* https://["ONTAP 文档"^]
 
