@@ -23,7 +23,7 @@ product-family:
   - title: 自动化和 API
     tags: tag_api
   tiles:
-  - title: 了解 Astra 系列
+  - title: 了解Astra Control
     icon: "./media/Astra_Family_logo_line.png"
     url: intro-family.html
     summary: 了解 Astra 系列产品。
