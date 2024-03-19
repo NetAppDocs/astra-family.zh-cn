@@ -2,49 +2,13 @@
 settings:
   name: Astra Family
   search: astra-control-service,astra-control-center,astra-automation,trident
+  internal:
+    pdf_enabled: false
   prod:
+    pdf_enabled: false
     harmony_enabled: false
   langs: zh-cn,us-en,ja-jp,ko-kr,zh-tw,de-de,es-es,fr-fr,it-it
 sidebar:
   entries:
   - title: Astra 产品系列文档
     url: "/index.html"
-  - title: 法律声明
-    url: "/legal-notices.html"
-product-family:
-  sidebarlinks:
-  - title: 所有产品
-    tags: tag_application_data_management,tag_storage_management,tag_data_storage,tag_api,tag_get_started
-    class: active
-  - title: 应用程序数据管理
-    tags: tag_application_data_management
-  - title: 存储管理
-    tags: tag_storage_management
-  - title: 自动化和 API
-    tags: tag_api
-  tiles:
-  - title: 了解Astra Control
-    icon: "./media/Astra_Family_logo_line.png"
-    url: intro-family.html
-    summary: 了解 Astra 系列产品。
-    tags: all, tag_get_started
-  - title: Astra 控制服务
-    icon: "./media/Astra_Control_logo_line.png"
-    url: https://docs.netapp.com/us-en/astra/index.html
-    summary: 使用 NetApp 管理的服务对公有 云中的 Kubernetes 工作负载进行应用感知型数据管理。
-    tags: all, tag_application_data_management
-  - title: Astra 控制中心
-    icon: "./media/Astra_Control_logo_line.png"
-    url: https://docs.netapp.com/us-en/astra-control-center/index.html
-    summary: 使用自助管理软件对内部 Kubernetes 工作负载进行应用感知型数据管理。
-    tags: all, tag_application_data_management
-  - title: Astra Trident
-    icon: "./media/Astra_Trident_logo_line2.png"
-    url: https://docs.netapp.com/us-en/trident/index.html
-    summary: 通过 NetApp 存储提供商为 Kubernetes 工作负载使用符合 CSI 的存储配置和管理功能。
-    tags: all, tag_storage_management
-  - title: Astra Automation 和 API
-    icon: "./media/Astra_Family_logo_line.png"
-    url: https://docs.netapp.com/us-en/astra-automation/index.html
-    summary: 使用 API 和 SDK 在您的运营中自动执行 Astra 工作流。
-    tags: all, tag_api

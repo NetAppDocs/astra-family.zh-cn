@@ -30,31 +30,16 @@
   <block id="8217522f2b9eea86f1099a2aba54aebd" category="list-text"><block ref="8217522f2b9eea86f1099a2aba54aebd" category="inline-link-rx"></block></block>
   <block id="061e6aa283b127d491599efd28e5adb3" category="summary">NetApp Astra 产品系列为内部和公有 云中的 Kubernetes 应用程序提供存储和应用程序感知型数据管理服务，并采用 NetApp 存储和数据管理技术。</block>
   <block id="4b675e54aa1095b2b20f8c4019de37b0" category="doc">Astra 文档</block>
-  <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="summary">法律声明提供对版权声明、商标、专利等的访问。</block>
-  <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法律声明</block>
-  <block id="108238230cdf60dd0887f944a8d13493" category="inline-link-macro">Astra Control Center 21.08 版通知</block>
-  <block id="c720f04897a24c86f93ce764015021d4" category="paragraph"><block ref="c720f04897a24c86f93ce764015021d4" category="inline-link-macro-rx"></block></block>
-  <block id="e81b0f8fae224ca0c3d3258b75a989dd" category="section-title">Astra Control API 许可证</block>
-  <block id="f7c79ca7f13fd9da78390d5a97db7042" category="paragraph"><block ref="f7c79ca7f13fd9da78390d5a97db7042" category="inline-link-rx"></block></block>
   <block id="2d63f74d9b059520b514097de3c8e2f5" category="sidebar">Astra 产品系列文档</block>
   <block id="40dec546414c1ebdfde8d9858f0938c3" category="sidebar">所有产品</block>
   <block id="7c5d8433a062d6a740a01339f0496a43" category="sidebar">应用程序数据管理</block>
   <block id="bfd15aa26ba0ced782240c4a8b7e517e" category="sidebar">存储管理</block>
   <block id="4fd0a97eaa9f8d1a9bf7332e22654095" category="sidebar">自动化和 API</block>
-  <block id="506cb50348b89bb82ceaa4bb08e4b2d8" category="sidebar">了解 Astra 系列产品。</block>
   <block id="a315052239d40dd49d5a66ab5d7c8a1b" category="sidebar">使用 NetApp 管理的服务对公有 云中的 Kubernetes 工作负载进行应用感知型数据管理。</block>
   <block id="f64830a81babe5853a9db001f89c0d1f" category="sidebar">使用自助管理软件对内部 Kubernetes 工作负载进行应用感知型数据管理。</block>
   <block id="e0f4a858a15b865d90b24b46633e2899" category="sidebar">通过 NetApp 存储提供商为 Kubernetes 工作负载使用符合 CSI 的存储配置和管理功能。</block>
   <block id="7d71aa0082960701504d9a25825cec9a" category="sidebar">Astra Automation 和 API</block>
   <block id="9ba87b2fd4ad6a397bd73df498a72886" category="sidebar">使用 API 和 SDK 在您的运营中自动执行 Astra 工作流。</block>
-  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">版权</block>
-  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">商标</block>
-  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp 、 NetApp 徽标和 NetApp 商标页面上列出的标记是 NetApp 、 Inc. 的商标。其他公司和产品名称可能是其各自所有者的商标。</block>
-  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">专利</block>
-  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">有关 NetApp 拥有的专利的最新列表，请访问：</block>
-  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">隐私政策</block>
-  <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">开放源代码</block>
-  <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知文件提供有关 NetApp 软件中使用的第三方版权和许可证的信息。</block>
   <block id="516729a7c0562425406a22cfe6a2c163" category="list-text">Amazon EBS</block>
   <block id="4d82a1ec1af02725042c8c785564ee7a" category="list-text">适用于 NetApp ONTAP 的 Amazon FSX</block>
   <block id="4ea21227490cfda88113ac9e09c3d896" category="list-text">Google 持久磁盘</block>
@@ -65,14 +50,6 @@
   <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="inline-link-macro">Cloud Volumes ONTAP</block>
   <block id="db7cdbe16748f17a4795bd3e96b798a0" category="list-text">* Astra Control Center* ：自管理软件，可为内部环境中运行的 Kubernetes 集群提供应用程序感知型数据管理。Astra控制中心还可以安装在多个云提供商环境中、并具有一个NetApp Cloud Volumes ONTAP 存储后端。</block>
   <block id="384c577b472799aa8cd781ce64f2bb34" category="paragraph">在您自己的Kubernetes集群上</block>
-  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
-  <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
-  <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
-  <block id="5d545fe5152641e2ebe654e336e520e5" category="paragraph"><block ref="5d545fe5152641e2ebe654e336e520e5" category="inline-link-macro-rx"></block></block>
-  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link-macro"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
-  <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
-  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
-  <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
   <block id="35766360770e699f50fa8f51d1c6ff36" category="doc">了解Astra Control</block>
   <block id="9323549177620e1dd794512ee7cc0748" category="paragraph">Asta Control是一款Kubennet应用程序数据生命周期管理解决方案、可简化有状态应用程序的操作、并帮助您在混合和多云环境之间存储、保护和移动Kubennet工作负载。</block>
   <block id="82ec2cd6fda87713f588da75c3b1d0ed" category="section-title">功能</block>
@@ -137,4 +114,5 @@
   <block id="cd27a1715aac859bc2a48a86ed2000c0" category="inline-link">Longhorn</block>
   <block id="1752f949f63eb1f41cea70be24a2a732" category="list-text"><block ref="1752f949f63eb1f41cea70be24a2a732" category="inline-link-rx"></block></block>
   <block id="00ae925249b1dcd734cdb679b48bf8f7" category="list-text">NetApp ONTAP Select</block>
+  <block id="7f79fef7297469596e52ca65df8b3d0a" category="sidebar">了解Astra Control。</block>
 </blocks>
