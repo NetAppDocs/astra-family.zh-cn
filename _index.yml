@@ -16,27 +16,27 @@ product-family:
     tags: tag_api
   tiles:
   - title: 了解Astra Control
-    icon: "./media/Astra_Family_logo_line.png"
+    icon: "./media/NetApp-Astra-ship.png"
     url: intro-family.html
     summary: 了解Astra Control。
     tags: tag_all, tag_application_data_management, tag_storage_management, tag_api
   - title: Astra 控制服务
-    icon: "./media/Astra_Control_logo_line.png"
+    icon: "./media/NetApp-Astra-ship.png"
     url: "../astra/index.html"
     summary: 使用 NetApp 管理的服务对公有 云中的 Kubernetes 工作负载进行应用感知型数据管理。
     tags: tag_all, tag_application_data_management
   - title: Astra 控制中心
-    icon: "./media/Astra_Control_logo_line.png"
+    icon: "./media/NetApp-Astra-ship.png"
     url: "../astra-control-center/index.html"
     summary: 使用自助管理软件对内部 Kubernetes 工作负载进行应用感知型数据管理。
     tags: tag_all, tag_application_data_management
   - title: Astra Trident
-    icon: "./media/Astra_Trident_logo_line2.png"
+    icon: "./media/Astra-Trident-logo.png"
     url: "../trident/index.html"
     summary: 通过 NetApp 存储提供商为 Kubernetes 工作负载使用符合 CSI 的存储配置和管理功能。
     tags: tag_all, tag_storage_management
   - title: Astra Automation 和 API
-    icon: "./media/Astra_Family_logo_line.png"
+    icon: "./media/NetApp-Astra-ship.png"
     url: "../astra-automation/index.html"
     summary: 使用 API 和 SDK 在您的运营中自动执行 Astra 工作流。
     tags: tag_all, tag_api

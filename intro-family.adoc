@@ -91,7 +91,7 @@ Astra Control基于四个互补组件构建：
 
 Asta Control有两种部署模式。
 
-image:astra-architecture-diagram-v6.png["Asta部署模式"]
+image:astra-architecture-diagram-v7.png["Asta部署模式"]
 
 * * Astra Control Service*：NetApp管理的服务、可为多个云提供商环境中的Kubernetes集群以及自管理Kubernetes集群提供应用程序感知型数据管理。
 +
@@ -150,7 +150,7 @@ https://docs.netapp.com/us-en/astra-control-center/["Astra 控制中心文档"^]
 ** Red Hat OpenShift 容器平台
 
 
-* *内部部署集群*
+* *内部集群*
 +
 ** Red Hat OpenShift容器平台内部部署
 
@@ -202,7 +202,7 @@ https://docs.netapp.com/us-en/astra-control-center/["Astra 控制中心文档"^]
 ** https://longhorn.io/["Longhorn"^]
 
 
-* *内部部署集群*
+* *内部集群*
 +
 ** NetApp MetroCluster
 ** NetApp ONTAP AFF 和 FAS 系统
