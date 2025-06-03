@@ -1,7 +1,7 @@
 ---
 settings:
   name: Astra Family
-  search: astra-control-service,astra-control-center,astra-automation,trident
+  search: astra-control-center,astra-automation,trident
   internal:
     pdf_enabled: false
   prod:

@@ -3,19 +3,13 @@
   <block id="42b90d40b51b0ccfc8a50cfa2f6c88bc" category="summary">Astra 是 Kubernetes 应用程序数据生命周期管理服务，可简化有状态应用程序的操作。轻松保护，备份和迁移 Kubernetes 工作负载，并即时创建有效的应用程序克隆。</block>
   <block id="c66fd3d61ca9e5331b05a6bd70d4a1df" category="paragraph">Astra Control 为 Kubernetes 应用程序数据生命周期管理提供了关键功能：</block>
   <block id="6762973af9b127d271f0d2b2aea0bc96" category="section-title">部署模式</block>
-  <block id="ef22ff17624b3faeed227ce5c717eb5f" category="inline-link">Astra Control Service 文档</block>
-  <block id="6762180adf48075df77efbf264e982ec" category="paragraph"><block ref="6762180adf48075df77efbf264e982ec" category="inline-link-rx"></block></block>
   <block id="3a4b2c66d4bdac6ce0e3340c71a39eda" category="inline-link">Astra 控制中心文档</block>
   <block id="281db70ca8dfcac9ebe6166029058548" category="paragraph"><block ref="281db70ca8dfcac9ebe6166029058548" category="inline-link-rx"></block></block>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="cell"></block>
-  <block id="35b46e301702b6fcb16192f9f4cf4533" category="cell">Astra 控制服务</block>
   <block id="9c634046a90a62883b122e76b9afcef2" category="cell">Astra 控制中心</block>
   <block id="72fa0b165b80dd423c3cca71e56e6e85" category="cell">如何提供？</block>
-  <block id="f7b1d494056b7a9289f329a721d9f318" category="cell">作为 NetApp 提供的一项完全托管的云服务</block>
   <block id="7cae1429bdc4131db46365e8fc893a77" category="cell">它托管在何处？</block>
-  <block id="7ab48d8d90e46b91aa73c1832b7681f9" category="cell">基于 NetApp 选择的公有云</block>
   <block id="a564f860d9dd9df279c4ea80b08d026a" category="cell">如何更新？</block>
-  <block id="b2929741e98ca2c366d8d7dfda36e2b9" category="cell">由 NetApp 管理</block>
   <block id="091f846d60c1037c90ba7580f37ef9fa" category="paragraph">您可以管理任何更新</block>
   <block id="d6fc0eb1930e7e56affc953c237c5514" category="list-text">NetApp ONTAP AFF 和 FAS 系统</block>
   <block id="086e6c16e3fe8e13c336612ef636aa02" category="section-title">Astra Trident</block>
@@ -35,23 +29,14 @@
   <block id="7c5d8433a062d6a740a01339f0496a43" category="sidebar">应用程序数据管理</block>
   <block id="bfd15aa26ba0ced782240c4a8b7e517e" category="sidebar">存储管理</block>
   <block id="4fd0a97eaa9f8d1a9bf7332e22654095" category="sidebar">自动化和 API</block>
-  <block id="a315052239d40dd49d5a66ab5d7c8a1b" category="sidebar">使用 NetApp 管理的服务对公有 云中的 Kubernetes 工作负载进行应用感知型数据管理。</block>
   <block id="f64830a81babe5853a9db001f89c0d1f" category="sidebar">使用自助管理软件对内部 Kubernetes 工作负载进行应用感知型数据管理。</block>
   <block id="e0f4a858a15b865d90b24b46633e2899" category="sidebar">通过 NetApp 存储提供商为 Kubernetes 工作负载使用符合 CSI 的存储配置和管理功能。</block>
   <block id="7d71aa0082960701504d9a25825cec9a" category="sidebar">Astra Automation 和 API</block>
   <block id="9ba87b2fd4ad6a397bd73df498a72886" category="sidebar">使用 API 和 SDK 在您的运营中自动执行 Astra 工作流。</block>
-  <block id="516729a7c0562425406a22cfe6a2c163" category="list-text">Amazon EBS</block>
-  <block id="4d82a1ec1af02725042c8c785564ee7a" category="list-text">适用于 NetApp ONTAP 的 Amazon FSX</block>
-  <block id="4ea21227490cfda88113ac9e09c3d896" category="list-text">Google 持久磁盘</block>
-  <block id="1a4c7c9b6e3157ccd0101fd0836c0bfc" category="list-text">NetApp Cloud Volumes Service</block>
-  <block id="79c9c43a409053927cc323915dbf1c06" category="list-text">Azure受管磁盘</block>
-  <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="list-text">Azure NetApp Files</block>
-  <block id="b7372905cd310308af0541e07ef5175f" category="list-text">* Astra Control Service*：NetApp管理的服务、可为多个云提供商环境中的Kubernetes集群以及自管理Kubernetes集群提供应用程序感知型数据管理。</block>
   <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="inline-link-macro">Cloud Volumes ONTAP</block>
   <block id="db7cdbe16748f17a4795bd3e96b798a0" category="list-text">* Astra Control Center* ：自管理软件，可为内部环境中运行的 Kubernetes 集群提供应用程序感知型数据管理。Astra控制中心还可以安装在多个云提供商环境中、并具有一个NetApp Cloud Volumes ONTAP 存储后端。</block>
   <block id="384c577b472799aa8cd781ce64f2bb34" category="paragraph">在您自己的Kubernetes集群上</block>
   <block id="35766360770e699f50fa8f51d1c6ff36" category="doc">了解Astra Control</block>
-  <block id="9323549177620e1dd794512ee7cc0748" category="paragraph">Asta Control是一款Kubennet应用程序数据生命周期管理解决方案、可简化有状态应用程序的操作、并帮助您在混合和多云环境之间存储、保护和移动Kubennet工作负载。</block>
   <block id="82ec2cd6fda87713f588da75c3b1d0ed" category="section-title">功能</block>
   <block id="953ad711b5d812e3876fb8a28266ba3e" category="paragraph">*存储*：</block>
   <block id="1cc20f69146066d58ea30c167da06503" category="list-text">为容器化工作负载动态配置存储</block>
@@ -68,11 +53,7 @@
   <block id="2d242bb36ec91b32005f9296ff03a912" category="section-title">架构</block>
   <block id="56da5995454440513c0c0a111bb3b132" category="paragraph">Asta Control的架构支持IT提供高级数据管理功能、以增强Kubbernetes应用程序的功能和可用性、简化容器化工作负载在公有云和内部环境之间的管理、保护和移动。 并通过REST API和SDK提供自动化功能、支持编程访问、以便与现有工作流无缝集成。</block>
   <block id="f0f6f0fb4331084912739b8873eea074" category="paragraph">Astra Control是Kub联网 原生版本、支持利用自定义资源的数据保护工作流、同时保持与现有API和SDK的向后兼容性。Kubornetes原生数据保护具有显著优势；通过与Kubornetes API和资源无缝集成、数据保护可以通过组织的现有CI/CD和/或GitOps工具成为应用程序生命周期的固有组成部分。</block>
-  <block id="3e9fd553c2a72f2fea1001b682208a54" category="inline-image-macro">Asta Control架构</block>
-  <block id="28a0c6c94cda259516d07dedb9c854ef" category="paragraph"><block ref="28a0c6c94cda259516d07dedb9c854ef" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8103c53d603644d4ee7cc959e53cf3a4" category="paragraph">Astra Control基于四个互补组件构建：</block>
-  <block id="4f16f53fe0ab96995516c186edf87fe6" category="list-text">*Astra Control*：Astra Control是适用于所有托管集群的集中式管理服务，可提供协调的工作负载，以实现云和内部环境中的应用程序保护和移动性以及以下功能：</block>
-  <block id="51fed4624a5a53152693a41ce5efa15a" category="list-text">多个集群和云的组合视图</block>
   <block id="e046b9c3be3479bde3b3259db738a78f" category="list-text">保护协调一致的工作流</block>
   <block id="8dc1680125686fe1458b22e1961b1899" category="list-text">精细的资源可视化和选择</block>
   <block id="4568e5d7e97ee5d6e4866ccd0c1dc770" category="list-text">*Astra Connecter*：Astra Connector与Astra Control相结合、可提供与每个受管集群的安全连接、无论连接状态如何、均可在本地执行计划的操作、并具有以下功能：</block>
@@ -86,33 +67,21 @@
   <block id="0aa3c724313cb48f6cecfc8393736174" category="list-text">*Astra自定义资源*：每个集群上使用的自定义资源提供了一种Kubernetes本机方法来在本地运行操作、简化了与其他Kubernetes友好工具和自动化的集成、并提供了以下功能：</block>
   <block id="427ee8760fb4e2d4c8d849fa36bab15b" category="list-text">直接的生态系统工具集成和自动化工作流</block>
   <block id="c7349a414c37176e5941afbe8fd1bf31" category="list-text">用于启用自定义工作流的较低级别的基本功能</block>
-  <block id="15bdafd183c9dcdccccb2ef960342018" category="paragraph">Asta Control有两种部署模式。</block>
   <block id="8b9e0c5eab1aafdd0008e7d94a979a00" category="paragraph">作为可下载、安装和管理的软件</block>
   <block id="5d169abc26c5e6f92958752c40a56358" category="cell">支持哪些Kubednetes分发版？</block>
-  <block id="41f1a6b80fe46fb30f51ab1b61f1a992" category="list-text">*云提供商*</block>
-  <block id="6beccc67ff905f7da0b29dece26b0485" category="list-text">Amazon Web Services</block>
-  <block id="480c9b5f979d1ce95ea2a58b09826d1b" category="list-text">Amazon Elelic Kubelnetes Service (EKS)</block>
-  <block id="56ef2682280ac110060b881925a87b80" category="list-text">Google Cloud</block>
-  <block id="974030a30a48754684d05541fd5e96c9" category="list-text">Google Kubernetes Engine （ GKEE ）</block>
-  <block id="1668ca1bd914c1d847f23b491319ac91" category="list-text">Microsoft Azure</block>
-  <block id="f28c5620810ae2a6961a1811277a7ff8" category="list-text">Azure Kubernetes Service （ AKS ）</block>
-  <block id="57c997cc6378705850c1e534b71a042d" category="list-text">*自管理集群*</block>
   <block id="0770a54f3635e09a4e4ff53a035b9979" category="list-text">Kubnetes (上游)</block>
   <block id="8c95b632875261344eb6365459feffd0" category="list-text">Rancher Kubernetes Engine （ RKE）</block>
   <block id="fd89bb4228981d3b22187eb451421cd6" category="list-text">Red Hat OpenShift 容器平台</block>
   <block id="22ec69733e61456fac578b2f6fcc2856" category="list-text">基于Azure堆栈HCI的Azure Kubnetes Service</block>
   <block id="1c4dff0a00340691e103ef63154df371" category="list-text">Google Anthos</block>
   <block id="a3060d8563d84f399ad045a8f074e953" category="cell">支持哪些存储后端？</block>
-  <block id="38e3b2d02a57ef89462103f8dcf36ab0" category="list-text"><block ref="38e3b2d02a57ef89462103f8dcf36ab0" category="inline-link-rx"></block></block>
-  <block id="ab819072ff4cb02cb39723b20e2ec373" category="list-text"><block ref="ab819072ff4cb02cb39723b20e2ec373" category="inline-link-rx"></block></block>
   <block id="ec2e9418f579c84a41733c6bb0adb789" category="list-text"><block ref="ec2e9418f579c84a41733c6bb0adb789" category="inline-link-rx"></block></block>
-  <block id="164fe74cfbca9ef543331e42b891cf2c" category="list-text">NetApp MetroCluster</block>
   <block id="cd27a1715aac859bc2a48a86ed2000c0" category="inline-link">Longhorn</block>
   <block id="1752f949f63eb1f41cea70be24a2a732" category="list-text"><block ref="1752f949f63eb1f41cea70be24a2a732" category="inline-link-rx"></block></block>
   <block id="00ae925249b1dcd734cdb679b48bf8f7" category="list-text">NetApp ONTAP Select</block>
   <block id="7f79fef7297469596e52ca65df8b3d0a" category="sidebar">了解Astra Control。</block>
-  <block id="e2a57f6b4c1a4fc07e57320580de76c4" category="inline-image-macro">Asta部署模式</block>
-  <block id="ed910480be660ce44964d26abfc6a0d8" category="paragraph"><block ref="ed910480be660ce44964d26abfc6a0d8" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="8e9845a2b1617722638d4b2716d9e349" category="list-text">*内部集群*</block>
-  <block id="fae11419c337e3427841a0c9b9d592f9" category="list-text">Red Hat OpenShift容器平台内部部署</block>
+  <block id="3a6992502160bd45057c4cab983caf0b" category="paragraph">Astra Control 是一种 Kubernetes 应用程序数据生命周期管理解决方案，可简化有状态应用程序的操作，并帮助您在混合环境中存储、保护和移动 Kubernetes 工作负载。</block>
+  <block id="ee598b6d30a6fff85e10ec4aa00fb486" category="list-text">Astra Control：Astra Control 是针对所有托管集群的集中管理服务，为本地应用程序保护和移动性提供协调的工作负载，并具有以下功能：</block>
+  <block id="301a1bce6ec5e89d3e225cc1c7d88bb6" category="list-text">多个集群的组合视图</block>
+  <block id="00b221fbcaad3eecdab529046865c432" category="paragraph">Astra Control 适用于单一部署模型。</block>
 </blocks>

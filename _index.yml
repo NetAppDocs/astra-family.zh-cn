@@ -20,11 +20,6 @@ product-family:
     url: intro-family.html
     summary: 了解Astra Control。
     tags: tag_all, tag_application_data_management, tag_storage_management, tag_api
-  - title: Astra 控制服务
-    icon: "./media/NetApp-Astra-ship.png"
-    url: "../astra/index.html"
-    summary: 使用 NetApp 管理的服务对公有 云中的 Kubernetes 工作负载进行应用感知型数据管理。
-    tags: tag_all, tag_application_data_management
   - title: Astra 控制中心
     icon: "./media/NetApp-Astra-ship.png"
     url: "../astra-control-center/index.html"

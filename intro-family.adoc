@@ -11,7 +11,7 @@ summary: Astra 是 Kubernetes 应用程序数据生命周期管理服务，可�
 
 
 [role="lead"]
-Asta Control是一款Kubennet应用程序数据生命周期管理解决方案、可简化有状态应用程序的操作、并帮助您在混合和多云环境之间存储、保护和移动Kubennet工作负载。
+Astra Control 是一种 Kubernetes 应用程序数据生命周期管理解决方案，可简化有状态应用程序的操作，并帮助您在混合环境中存储、保护和移动 Kubernetes 工作负载。
 
 
 
@@ -48,13 +48,11 @@ Asta Control的架构支持IT提供高级数据管理功能、以增强Kubbernet
 
 Astra Control是Kub联网 原生版本、支持利用自定义资源的数据保护工作流、同时保持与现有API和SDK的向后兼容性。Kubornetes原生数据保护具有显著优势；通过与Kubornetes API和资源无缝集成、数据保护可以通过组织的现有CI/CD和/或GitOps工具成为应用程序生命周期的固有组成部分。
 
-image:astra-family-architecture-v1_IEOPS-1558.png["Asta Control架构"]
-
 Astra Control基于四个互补组件构建：
 
-* *Astra Control*：Astra Control是适用于所有托管集群的集中式管理服务，可提供协调的工作负载，以实现云和内部环境中的应用程序保护和移动性以及以下功能：
+* Astra Control：Astra Control 是针对所有托管集群的集中管理服务，为本地应用程序保护和移动性提供协调的工作负载，并具有以下功能：
 +
-** 多个集群和云的组合视图
+** 多个集群的组合视图
 ** 保护协调一致的工作流
 ** 精细的资源可视化和选择
 
@@ -89,74 +87,27 @@ Astra Control基于四个互补组件构建：
 
 == 部署模式
 
-Asta Control有两种部署模式。
+Astra Control 适用于单一部署模型。
 
-image:astra-architecture-diagram-v7.png["Asta部署模式"]
+* Astra Control Center* ：自管理软件，可为内部环境中运行的 Kubernetes 集群提供应用程序感知型数据管理。Astra控制中心还可以安装在多个云提供商环境中、并具有一个NetApp Cloud Volumes ONTAP 存储后端。
 
-* * Astra Control Service*：NetApp管理的服务、可为多个云提供商环境中的Kubernetes集群以及自管理Kubernetes集群提供应用程序感知型数据管理。
-+
-https://docs.netapp.com/us-en/astra/index.html["Astra Control Service 文档"^]
-
-* * Astra Control Center* ：自管理软件，可为内部环境中运行的 Kubernetes 集群提供应用程序感知型数据管理。Astra控制中心还可以安装在多个云提供商环境中、并具有一个NetApp Cloud Volumes ONTAP 存储后端。
-+
 https://docs.netapp.com/us-en/astra-control-center/["Astra 控制中心文档"^]
 
-
-
-[cols="1h,2d,2a"]
+[cols="1h,2d"]
 |===
-|  | Astra 控制服务 | Astra 控制中心 
+|  | Astra 控制中心 
 
 
-| 如何提供？ | 作为 NetApp 提供的一项完全托管的云服务  a| 
-作为可下载、安装和管理的软件
+| 如何提供？ | 作为可下载、安装和管理的软件 
 
 
-
-| 它托管在何处？ | 基于 NetApp 选择的公有云  a| 
-在您自己的Kubernetes集群上
+| 它托管在何处？ | 在您自己的Kubernetes集群上 
 
 
-
-| 如何更新？ | 由 NetApp 管理  a| 
-您可以管理任何更新
-
+| 如何更新？ | 您可以管理任何更新 
 
 
 | 支持哪些Kubednetes分发版？  a| 
-* *云提供商*
-+
-** Amazon Web Services
-+
-*** Amazon Elelic Kubelnetes Service (EKS)
-
-
-** Google Cloud
-+
-*** Google Kubernetes Engine （ GKEE ）
-
-
-** Microsoft Azure
-+
-*** Azure Kubernetes Service （ AKS ）
-
-
-
-
-* *自管理集群*
-+
-** Kubnetes (上游)
-** Rancher Kubernetes Engine （ RKE）
-** Red Hat OpenShift 容器平台
-
-
-* *内部集群*
-+
-** Red Hat OpenShift容器平台内部部署
-
-
-
- a| 
 * 基于Azure堆栈HCI的Azure Kubnetes Service
 * Google Anthos
 * Kubnetes (上游)
@@ -167,52 +118,6 @@ https://docs.netapp.com/us-en/astra-control-center/["Astra 控制中心文档"^]
 
 
 | 支持哪些存储后端？  a| 
-* *云提供商*
-+
-** Amazon Web Services
-+
-*** Amazon EBS
-*** 适用于 NetApp ONTAP 的 Amazon FSX
-*** https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-gcp.html["Cloud Volumes ONTAP"^]
-
-
-** Google Cloud
-+
-*** Google 持久磁盘
-*** NetApp Cloud Volumes Service
-*** https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-gcp.html["Cloud Volumes ONTAP"^]
-
-
-** Microsoft Azure
-+
-*** Azure受管磁盘
-*** Azure NetApp Files
-*** https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-azure.html["Cloud Volumes ONTAP"^]
-
-
-
-
-* *自管理集群*
-+
-** Amazon EBS
-** Azure受管磁盘
-** Google 持久磁盘
-** https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/["Cloud Volumes ONTAP"^]
-** NetApp MetroCluster
-** https://longhorn.io/["Longhorn"^]
-
-
-* *内部集群*
-+
-** NetApp MetroCluster
-** NetApp ONTAP AFF 和 FAS 系统
-** NetApp ONTAP Select
-** https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/["Cloud Volumes ONTAP"^]
-** https://longhorn.io/["Longhorn"^]
-
-
-
- a| 
 * NetApp ONTAP AFF 和 FAS 系统
 * NetApp ONTAP Select
 * https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/["Cloud Volumes ONTAP"^]
@@ -224,7 +129,6 @@ https://docs.netapp.com/us-en/astra-control-center/["Astra 控制中心文档"^]
 
 == 有关详细信息 ...
 
-* https://docs.netapp.com/us-en/astra/index.html["Astra Control Service 文档"^]
 * https://docs.netapp.com/us-en/astra-control-center/["Astra 控制中心文档"^]
 * https://docs.netapp.com/us-en/trident/index.html["Astra Trident 文档"^]
 * https://docs.netapp.com/us-en/astra-automation/index.html["Astra Control API"^]
