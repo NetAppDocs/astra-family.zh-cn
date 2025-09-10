@@ -27,7 +27,7 @@ product-family:
     tags: tag_all, tag_application_data_management
   - title: Astra Trident
     icon: "./media/Astra-Trident-logo2.png"
-    url: "../trident/index.html"
+    url: "../trident-2406/index.html"
     summary: 通过 NetApp 存储提供商为 Kubernetes 工作负载使用符合 CSI 的存储配置和管理功能。
     tags: tag_all, tag_storage_management
   - title: Astra Automation 和 API
